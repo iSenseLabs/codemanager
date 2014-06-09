@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<modification>
+	<id>CodeManager</id>
+	<version>1.0</version>
+	<vqmver>2.4.0</vqmver>
+	<author>iSenseLabs</author>
+
+
+	<file name="admin/view/template/common/header.tpl">
+		<operation>
+			<search position="before"><![CDATA[<li><a href="<?php echo $error_log; ?>"><?php echo $text_error_log; ?></a></li>]]></search>
+			<add><![CDATA[
+				<li><a href="index.php?route=module/codemanager&token=<?php echo $_GET['token']; ?>"><strong>Code Manager</strong></a>
+			]]></add>
+		</operation>
+	</file> 
+	
+</modification>

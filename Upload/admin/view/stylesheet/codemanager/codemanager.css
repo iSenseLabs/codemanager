@@ -1,0 +1,374 @@
+/* OpenCart Navigation Fixes */
+#menu, #menu * {
+  -webkit-box-sizing: content-box;
+  -moz-box-sizing: content-box;
+  box-sizing: content-box;
+}
+
+#menu > ul .top {
+  line-height: 14px;
+}
+
+#menu > ul li li a {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 12px;
+  line-height: 14px;
+}
+
+#menu > ul > li > ul {
+  display: none !important;
+  overflow: hidden !important;
+  visibility: hidden !important;
+}
+
+#menu > ul > li.sfHover > ul {
+  display: block !important;
+  overflow: visible !important;
+  visibility: visible !important;
+}
+
+/* ADMIN PANEL STYLES - BEGIN */
+.breadcrumb {
+  margin-top: 10px;
+  padding: 12px 15px;
+}
+
+body {
+  font-family: "Helvetica Neue", Helvetica ,Arial, sans-serif;
+  font-size: 13px;
+  line-height: inherit;
+}
+
+.table>tbody>tr>td {
+  vertical-align: middle;
+}
+
+.table tr:first-child td {
+  border-top: none;
+}
+
+.pagination {
+  display: block;
+  padding-left: 0;
+  margin: 0;
+  border-radius: 0px;
+}
+
+#main_settings_sub_tab .input-group {
+  max-width: 137px;
+}
+
+.modulePositioning {
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+.modulePositioning label {
+  min-width: 90px;
+}
+
+.modulePositioning .form-control {
+  width: 50%;
+  display: inline-block;
+}
+
+.modulePositioning input[type="number"] {
+  width: 20%;
+}
+
+.messageSubject {
+  margin-bottom: 20px;
+}
+
+.list tbody td a {
+  text-decoration: none;
+}
+
+.tab-navigation {
+  position: relative;
+}
+
+.tab-navigation .nav {
+  margin-bottom: 20px;
+}
+
+.tab-buttons {
+  position: absolute;
+  right: 0;
+  top: 0;
+}
+
+.center {
+  text-align: center;
+}
+
+.registeredDomains {
+  padding: 0;
+  margin: 0;
+  list-style: none;
+}
+
+.licenseAlerts {
+  margin-top: 10px;
+}
+
+/* iModules */
+
+.iModuleContent .box .notActivatedContent {
+  padding: 10px;
+  border-left: 1px solid #CCC;
+  border-right: 1px solid #CCC;
+  border-bottom: 1px solid #CCC;
+  min-height: 300px;
+  overflow: auto;
+  text-align: center;
+  padding-top: 80px;
+}
+
+.iModuleContent .iModuleActivateButton {
+  background: #069;
+  padding: 16px 28px;
+  color: white;
+  border: 4px solid #fff;
+  outline: 4px solid #ccc;
+  text-decoration: none;
+  display: inline-block;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  font-size: 34px;
+}
+
+.iModuleContent .iModuleActivateButton:hover {
+  background: #06d;
+}
+
+/* ADMIN PANEL STYLES - END */
+
+/* BOOTSTRAP OVERRIDE - BEGIN */
+.col-xs-2 {
+  padding-left: 0px;
+}
+/* BOOTSTRAP OVERRIDE - END */
+
+.colorsLi .colorPreview {
+  width: 18px;
+  height: 18px;
+  background: #ccc;
+  border: 1px solid #aaa;
+}
+
+.colorsLi tr th {
+  color: #333;
+  font-size: 13px;
+  font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;
+  text-align: left;
+  padding-left: 10px;
+}
+
+.colorsLi tr td {
+  text-align: left;
+}
+
+#searchedFound {
+  height: 400px;
+  padding: 0;
+}
+
+div.content div.analytics {
+  width: 100%;
+  clear: both;
+  margin-bottom: 20px;
+}
+
+.iSimpleTable {
+  margin: 0 20px 20px 20px;
+}
+
+.iSimpleTable td {
+  padding: 5px;
+  width: 100%;
+  text-align: center;
+}
+
+.iSimpleTable td:first-child {
+  text-align: left;
+}
+
+.iSimpleTable td:last-child {
+  text-align: right;
+}
+
+.iSimpleTable tr:first-child td {
+  border-bottom: 1px dotted #CCC;
+}
+/*Support tab*/
+
+
+
+.panel-body .notLicensedTable, .panel-body .licensedTable {
+  table-layout: fixed;
+}
+
+.panel-body .notLicensedTable .form-group, .panel-body .licensedTable .form-group {
+  margin-bottom: 15px;
+}
+
+.panel-body .notLicensedTable ul, .panel-body .licensedTable ul {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+.panel-body .notLicensedTable tr > td {
+  padding: 10px 0;
+}
+
+.panel-body .box-content {
+  padding: 10px;
+  border: 1px solid #DBDBDB;
+  min-height: 300px;
+  overflow: auto;
+}
+
+.notLicensedTable .small-link {
+  font-size: 12px;
+}
+
+.panel-body .thumbnail {
+  margin: 15px 0;
+}
+
+.widgetPositionOpenCart {
+  float: left;
+  min-width: 120px;
+}
+
+.widgetPositionOpenCart label {
+  font-weight: bold;
+}
+
+.widgetPositionOpenCart input[type="radio"] {
+  margin-top: 0;
+}
+
+.widgetPositionOpenCart img {
+  border: 1px solid #ddd;
+}
+
+div.checkbox {
+  margin-left: 20px;
+}
+
+.input-group[class*=col-] {
+  padding-left: 15px;
+  padding-right: 15px;
+}
+
+.cke * {
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: content-box;
+}
+
+.notificationMessageTabs {
+  margin: 20px 0;
+}
+
+input[type='text'], input[type='password'] {
+  padding: 6px 12px;
+}
+
+.form-control.customCss {
+  height: 80px;
+  min-height: 80px;
+}
+
+.panel-heading {
+  position: relative;
+  padding: 15px;
+}
+
+.storeSwitcherWidget {
+  position: absolute;
+  right: 15px;
+  top: 8px;
+}
+
+.storeSwitcherWidget .form-group {
+  margin-bottom: 0;
+}
+
+.storeSwitcherWidget .form-group.open .dropdown-menu {
+  right: 0;
+  left: auto;
+}
+
+
+.scheduledPriceForm .input-group .button b {
+	min-width: 13px;
+}
+
+.input-group #datetimepicker {
+	min-width: 145px;	
+} 
+.input-group .form-control {
+	z-index: 0;
+}
+
+#colorbox {
+	box-sizing: content-box !important;
+}
+
+
+.bs-example-bg-classes p {
+	padding: 15px;
+	font-size: 17px;
+	border-radius: 3px;
+}
+
+.optionsSmsBump {
+	float: left;
+	z-index: 9999;
+	position: absolute;
+	margin-top: 11px !important;
+	margin-left: 11px !important;
+}
+
+.table-header {
+	background: #EFEFEF;
+}
+
+.FullScreen {
+	position: absolute;
+	top: 0;
+	left: 0;
+	z-index: 1000;
+	width: 100% !important;
+	height: 100% !important;	
+}
+
+.NormalScreen {
+	z-index:9999;
+	position:absolute;
+	top:10px;
+	right:20px;
+	display:none;
+	color: #666;
+	cursor: pointer;	
+}
+
+.NormalScreen:hover {
+    color: #ffffff;
+}
+.fullscrbtn {
+	position:absolute;
+	right:50px;
+	float:right;
+	margin-top:10px;
+	color: #666;
+	cursor: pointer;
+}
+
+.fullscrbtn:hover {
+    color: #ffffff;
+}

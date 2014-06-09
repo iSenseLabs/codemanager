@@ -1,0 +1,6 @@
+Release Log
+==============================
+
+CodeManager 1.0
+---------------------------
+	- Initial release

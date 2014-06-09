@@ -1,0 +1,16 @@
+﻿Installation Instructions
+=================================
+This installation instructions assume that you are running either fresh or customized installation of OpenCart. Make sure that you also have vQmod downloaded and installed.
+
+1) Unzip the downloaded ZIP file into a new folder
+BEFORE YOU COPY THE FILES: 
+--- If your OpenCart is not a fresh installation, files backup is highly recommended. 
+2) Copy all files from /Upload folder over your current OpenCart installation preserving the directory structure.
+3) Login to your OpenCart admin panel. Once you do that, go to Extensions > Modules and find CodeManager and click the [Install] link. The page will be refreshed and [Edit] link will show up.
+4) Click the [Edit] link.  
+5) Now CodeManager is installed. Congratulations!
+
+
+Support & Feature Requests
+===============================
+Please address your questions, comments or issues by starting a thread at our forum http://isenselabs.com/forum or opening a support ticket at http://isenselabs.com/tickets/open
